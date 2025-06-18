@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "tsx hono.js",
+    "dev": "tsx watch hono.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "hono": "^4.6.19",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "tsx": "^4.7.1"
+  }
+}
